@@ -11,4 +11,4 @@ class Weather{
     }
 }
 
-Weather.getPrevisao('Pelotas').then(v => {console.log(v)});
+Weather.getPrevisao('Vancouver').then(v => {console.log(v)});
